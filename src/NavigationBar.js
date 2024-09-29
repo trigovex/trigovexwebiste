@@ -40,7 +40,7 @@ const NavigationBar = () => {
               <a className="nav-link" href="#">Gallery</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Career</a>
+              <a className="nav-link" href="#">Careers</a>
             </li>
           </ul>
           <button className="btn btn-danger">Contact Us</button>
