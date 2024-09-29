@@ -1,0 +1,60 @@
+/* src/components/NavigationBar.css */
+.navbar {
+  padding: 0.7rem; /* Reduce vertical padding */
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.navbar-logo {
+  height: 70px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust font size for brand */
+}
+
+.nav-link {
+  color: black !important; /* Ensure links are black */
+  padding: 0.5rem 1rem; /* Adjust padding for links */
+}
+
+.btn-danger {
+  background-color: #ff6347; /* Keep your button color */
+  border: none; /* Remove border */
+  padding: 0.3rem 0.7rem; /* Adjust button padding */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.25rem; /* Reduce navbar padding for mobile */
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .nav-link {
+    padding: 0.25rem 0.5rem; /* Smaller padding for links */
+    font-size: 0.9rem; /* Smaller font size for links */
+  }
+
+  .btn-danger {
+    padding: 0.2rem 0.5rem; /* Smaller button padding */
+    display: none; /* Hide button */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack links vertically on mobile */
+    align-items: flex-start; /* Align links to the left */
+    width: 100%; /* Make navbar full width */
+  }
+
+  .nav-item {
+    width: 100%; /* Make each item full width */
+  }
+
+  .nav-link {
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Make link full width */
+  }
+}
